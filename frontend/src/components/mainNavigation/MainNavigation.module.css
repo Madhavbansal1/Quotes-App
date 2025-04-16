@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.mainNavigation ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+.mainNavigation ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.mainNavigation ul li a:hover {
+    color: #ffcc00;
+}
